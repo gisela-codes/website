@@ -99,6 +99,11 @@ footer {
 }
     .socials{
         width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .socials a{
+        padding: 1em;
     }
     .email{
         width: 100%;
