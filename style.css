@@ -178,12 +178,46 @@ footer {
   'opsz' 20
 }
 
-    @media only screen and (max-width: 600px){
-        header{
-            height: 15vh;
-        }
-        #hero {
-            height: 75vh;
-        }
+@media only screen and (max-width: 600px){
+    header{
+        height: 10vh;
     }
+    #hero {
+        height: 85vh;
+        background: no-repeat url("Imgs/C991B9DE-4156-4D5C-9BC2-D9F9448A639A.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    h1{
+        font-size: large;
+    }
+    p {
+        font-size: inherit;
+    }
+    .button{
+        background-color: #000;
+    }
+    .slider{
+        flex-direction: column;
+    }
+    nav ul{display: none;}
+    footer{
+        flex-wrap: wrap-reverse;
+        height: auto;}
+    .socials {
+        padding-bottom: 2em;
+    }
+    footer .logo{
+        width: 50%;
+        margin: auto;
+    }
+    .logo img{
+        max-width: 100px;
+    }
+    .email{
+        width: 50%;
+        text-align: left;
+    }
+}
     
